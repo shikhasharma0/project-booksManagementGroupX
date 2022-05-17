@@ -22,8 +22,7 @@ const creatReview = async function (req, res) {
         if (error) {
             return res.status(400).send({ status: false, msg: error })
         }
-
-        /*
+   /*
         if (!ObjectId.isValid(bookId)) {
             return res.status(400).send({ status: false, msg: "bookId not valid" })
         }
